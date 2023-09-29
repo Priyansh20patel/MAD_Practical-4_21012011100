@@ -148,7 +148,6 @@
                 <EditText
                     android:layout_weight="0.5"
                     android:layout_width="0dp"
-
                     android:layout_height="wrap_content"
                     android:inputType="textVisiblePassword"
                     android:layout_marginHorizontal="10dp"/>
@@ -170,8 +169,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register"
-            android:textSize="20sp"
-            >
+            android:textSize="20sp">
+
         </Button>
 
     </LinearLayout>
@@ -190,7 +189,7 @@
             android:textSize="18sp"/>
 
         <Button
-            android:id="@+id/login"
+            android:id="@+id/login1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="LOGIN"

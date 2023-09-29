@@ -1,8 +1,8 @@
 package com.priyanshpatel.mad_practical_4_21012011100
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View.OnClickListener
 import android.widget.Button
 
 class LoginActivity : AppCompatActivity() {
@@ -10,6 +10,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-}
-
+        val signup: Button = findViewById(R.id.signup)
+        signup.setOnClickListener {
+            Intent(this,RegistrationActivity::class.java).also { startActivity(it) }
+        }
+    }
 }
